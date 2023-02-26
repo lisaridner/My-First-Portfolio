@@ -1,0 +1,16 @@
+title {
+    text-align: center;  
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ body {
+    color:aqua;
+ }
+
+ header {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:hotpink;
+    color: cornflowerblue
+ }
