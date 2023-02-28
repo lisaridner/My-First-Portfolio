@@ -1,30 +1,43 @@
-* {
-   box-sizing: border-box;
-   padding: 10px;
-   margin: 15px;
+*
+:root {
+   --pink: #da3fa1;
+   --white: #fff;
 }
+   
+   body {
+    color: var(--pink);
+    background-color: var (--white);
 
-body {
-    color:aqua;
  }
+
+ div {
+   width:60px;
+   height:80px;
+   border: 5px bold black;
+   padding: 50px;
+   margin: 20px;
+}
 
  header {
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:hotpink;
-    color: cornflowerblue
+    background-color: aqua;
+    color: rgb(172, 24, 110);
+    border-bottom: 10px solid darkblue;
+       
  }
 
- header h1 {
+  h1 {
    display:block;
-   font-size: 50px;
+   font-size: 35px;
+   color: var(--pink)
+   
+}
 
- }
-
- header nav {
+header nav {
    padding-top: 20px;
    margin-left: 15px;
-   float: left;
+   float: right;
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 35px;
  }
@@ -38,15 +51,4 @@ body {
    margin-right: 20px;
  }
 
- a {
-   color:white;
-   text-decoration-style: wavy;
- }
-
- p {
-   font-size: 18px;
- }
-
-   
-
-
+ 
