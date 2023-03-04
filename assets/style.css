@@ -22,9 +22,9 @@ header {
 }
 
 nav {
-   margin:0;
+   margin:10px;
    padding:10px;
-   color: var(--pink);
+   color: var (--white);
    text-align: right;
       
  }
