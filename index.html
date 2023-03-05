@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,60 +9,82 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 
-<body>         
-    <div class="topnav"> 
-                   
-        <a href="My Background">My Hobbies</a>
-        <a href="My Hobbies">My Background</a>
+<body>
+   <div id="headline">
+   <img id="profile" src="./assets/thumbnail.jpg"
+    alt="A picture of Lisa Ridner. She has a great big smile.">
+    <h1>Lisa Ridner</h1>
+   </div>
+   
+    <div class="topnav">
 
-    <div class="topnav-right">
-        <a href="My Work">My Work Samples</a>
-        <a href="Contact Me">Contact Information</a>
+        <a href="#my-background">My Background</a>
+        <a href="#my-hobbies">My Hobbies</a>
+
+        <div class="topnav-right">
+            <a href="#my-work">My Work Samples</a>
+            <a href="#contact-me">Contact Information</a>
+        </div>
     </div>
-</div>          
-     
 
-    <figure class="img"></figure>
+
+    <div id="hero"></div>
     <main class="content">
-        <section id="My Background" class="main-section">
-
-            <img src="C:\Users\lisar\Pictures\thumbnail.jpg" 
-            alt="A picture of Lisa Ridner. She has a great big smile."/>
-          
+        <section id="my-background" class="main-section">
             <h2>My Background</h2>
             <p>
-                Hi! I'm Lisa Marie. My mother was a big Elvis fan. My entire family has an Educational background. So naturally I became a teacher. I reveived a bachelor's degree in Businness and Office Education from U.S.F. I continued on to receive my Masters in School Guidance Counseling. I taught as a substitute on and off for several years, giving me exposure to differnt grade levels. I landed in Elementary, and just completed teaching my 4th year in 1st grade. 
+                Hi! I'm Lisa Marie. My mother was a big Elvis fan. My entire family has an Educational background. So
+                naturally I became a teacher. I reveived a bachelor's degree in Businness and Office Education from
+                U.S.F. I continued on to receive my Masters in School Guidance Counseling. I taught as a substitute on
+                and off for several years, giving me exposure to differnt grade levels. I landed in Elementary, and just
+                completed teaching my 4th year in 1st grade.
             </p>
         </section>
 
-        <section id="My Hobbies"  class="main-section">
+        <section id="my-hobbies" class="main-section">
             <h2>My Hobbies</h2>
             <p>
-                Living in Central Florida, has provided me the opportunity to enjoy the amusement and water parks. I love going to Disney, Universal Studios and Bucsh Gardens. On the home front, I enjoy cooking, baking, movies, reality tv and spending time with my fur babies.
+                Living in Central Florida, has provided me the opportunity to enjoy the amusement and water parks. I
+                love going to Disney, Universal Studios and Bucsh Gardens. On the home front, I enjoy cooking, baking,
+                movies, reality tv and spending time with my fur babies.
             </p>
         </section>
 
-        <section id="My Work" class="main-section">
+        <section id="my-work" class="main-section">
             <h2>My Work</h2>
-            <a href="https://github.com/lisaridner/Code-Refactor-Week-One.git">My Code Refractor Assignment</a>
-            <p>
-                This is the first assignment I have done in my bootcamp program.                
-            </p>
-        
-            <section id="Contact Info" class="main-section">
-            <h2>Contact Me</h2>
-            <li>
-                <ul>Lisa Ridner</ul>
-                <ul><a href="mailto:lisaridner@yahoo.com">E-mail me</a></ul>
-                <ul>1944 Suzanne Lane Lakeland, Fl 33805</ul>
-            </li>
-        </section>
-    </main>
-    
+            <div id="card-container">
+                <div class="card">
+                    <img scr="https://github.com/lisaridner/Code-Refactor-Week-One.git" alt="My Code Refractor Assignment">
+                    <h3>Code Refractor Assignment</h3>
+                </div>
+                <div class="card">
+                    <img scr="https://github.com/lisaridner/Code-Refactor-Week-One.git" alt="My Code Refractor Assignment">
+                    <h3>Work Sample</h3>
+                </div>
+                <div class="card">
+                    <img>
+                    <h3></h3>
+                </div>
+                <div class="card">
+                    <img>
+                    <h3></h3>
+                </div>
+            </div>
 
-    </body>
+            <section id="contact-info" class="main-section">
+                
+                <h2>Contact Me</h2>
+                Lisa Ridner
+                <a href="mailto:lisaridner@yahoo.com">E-mail me</a>
+                1944 Suzanne Lane Lakeland, Fl 33805
+            </section>
+
+    </main>
+
     <footer>
-        Hope to hear from you soon! 
+        Hope to hear from you soon!
 
     </footer>
-    </html>
+</body>
+
+</html>

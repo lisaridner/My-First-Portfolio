@@ -2,17 +2,33 @@
 :root {
    --pink: #da3fa1;
    --white: #fff;
+   
 }
 
 body {
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
+   background-color:rgb(246, 242, 237);
  }
-   
+
+#profile {
+   height:300px;
+   width:300px;
+   border-radius: 50%;
+   padding: 3%;
+}
+
+#headline {
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+
+} 
  .topnav {
    position: relative;
    overflow: hidden;
-   background-color: #11e3f3;
+   background-color: #11e2f3;
  }
  
  .topnav a {
@@ -52,34 +68,40 @@ body {
      float: none;
      display: block;
    }
-   
-   p {
-   font-size: 16px;
-}
-
- .main-section img {
-   padding:10px;
-   width: 25%;
-   height: 25x;
-   float: left;
-   margin-left: 10px; 
  }
 
-    @media screen and (max-width: 600px) {
-     width:100%;
-      }
-    
+#hero {
+   height: 800px;
+   width: 100%;
+   margin-bottom: 25px;
+   background-image: url("./classroom.jpg");
+   background-size: cover;
+   background-position: center;
+}
 
-    footer {
-    
-    background-color: rgb(233, 27, 171); 
+main-section {
+   width: 25px;
+   border:#101911 5px;
+   padding: 50px;
+   margin: 20px;
+   
+} 
+.main-section h2 {
+   margin-bottom: 20px;
+   font-size: 30px;
+ } 
+
+ .card-container {
+   display: grid;
+   
+ li:first-child 
+   border:3px solid black;
+ }
+
+ 
+
+footer {    
+    background-color:rgb(10, 241, 30); 
     text-align: center;
     padding: 10 px; 
-
-    }
-
-
-
- 
-
- 
+ }
