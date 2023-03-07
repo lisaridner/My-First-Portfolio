@@ -1,14 +1,7 @@
 # CSS-Portifolio
 Challenge Two - Building a Deployed Portfolio of Work Samples
 
+I created a web page to display my work, hobbies, background and contact info to prospective employers to look at. I added my picture to the header. Added navigational links to each section on my page. Made four different sections to provide requested information. My work - section has pictures and titles of work samples. I provided a link to my Git Hub to show my first application that I've done in my bootcamp program. I have mafe this application image larger in size than the others. I have a placeholder for future projects that I will include. I have added responsive code and alternative text for my website.  
 
 
 
-
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
