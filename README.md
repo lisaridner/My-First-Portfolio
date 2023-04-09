@@ -5,3 +5,6 @@ I created a web page to display my work, hobbies, background and contact info to
 
 
 
+I worked withe a tutor on my profile picture, and the four sections of my pages. They also helped wiht setting up a card container for my images in My Work section.
+
+I worked with a TA on lining my pictures up in the work section of the site. 

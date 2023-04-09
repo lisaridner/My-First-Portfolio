@@ -98,29 +98,29 @@ body {
  .card {
    display: flex;
    flex-direction: column; 
-   justify-content: center;
+   justify-content:center;
    text-align:center;
    margin: 0 auto;
    min-height: 200px;
    }
    
- #sample{
+ #screenshot1{
    width: 400px;
    height: 400px;
    border-radius:8px;
  }
 
- #sample2 {
+ #screenshot2 {
    
-   width:200px;
-   height: 200px;
+   width:400px;
+   height: 400px;
    border-radius:8px;
  }
 
- #sample3 {
+ #screenshot3 {
 
-   width:200px;
-   height:200px;
+   width:400px;
+   height:400px;
    border-radius:8px;
  }
  
